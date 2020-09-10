@@ -1,0 +1,27 @@
+1. react-slick  >>> 슬라이드쇼
+>>> npm : npm install react-slick --save
+>>> yarn : yarn add react-slick
+
+2. react-app-polyfill   >>> 브라우저 호환성
+>>> npm : npm install react-app-polyfill
+>>> yarn : yarn add react-app-polyfill
+
+3. EmailJS-COM  >>> 이메일보내기
+>>> npm : npm install emailjs-com --save
+
+
+
+아래는 일단 제거. > IE11 까지만 지원계획
+-------------------------------------------------------------------
+4. core-js  >>> IE 10 이하 map 기능 추가
+>>> npm : npm i core-js
+
+5. regenerator-runtime  >>> IE 10 이하 map 기능 추가
+>>> npm : npm i regenerator-runtime
+
+6. Browserslist
+>>> npm : npm i browserslist
+
+7. ...
+>>> npm : npm i @babel/runtime
+-------------------------------------------------------------------
