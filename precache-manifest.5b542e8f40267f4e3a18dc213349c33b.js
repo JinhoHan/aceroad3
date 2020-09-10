@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea33431cc8b07505d64a2703d020cd07",
+    "revision": "0f2c2b61e1bdb5c93af90df40acf5576",
     "url": "/aceroad3/index.html"
   },
   {
-    "revision": "5912f86b5ab5893607ee",
+    "revision": "8484404f42f8947cc858",
     "url": "/aceroad3/static/css/main.af8cc494.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aceroad3/static/js/2.846eebd4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5912f86b5ab5893607ee",
-    "url": "/aceroad3/static/js/main.22089b73.chunk.js"
+    "revision": "8484404f42f8947cc858",
+    "url": "/aceroad3/static/js/main.f8b46488.chunk.js"
   },
   {
     "revision": "9f4cbca079958b5f7140",
