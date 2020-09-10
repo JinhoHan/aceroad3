@@ -41,7 +41,7 @@ class Masthead extends React.Component {
         // const { _scrollTop } = this.props;
         return (
             <header className="masthead __user__masthead__min__height" id="masthead"
-            style={{ background: `url(${process.env.PUBLIC_URL + '/img/KakaoTalk_20200907_110744110.jpg'})`}}>
+            style={{ background: `url(${process.env.PUBLIC_URL + '/img/KakaoTalk_20200907_110744110.jpg'})`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundPositionX: 'center',  backgroundPositionY: 'center', backgroundSize: 'cover', opacity: '0.7' }}>
 
                 <div className="__user__masthead__div__opacity">
                     <div className="container">

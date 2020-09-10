@@ -10171,12 +10171,23 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
 }
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+
+
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -10200,6 +10211,7 @@ img::-moz-selection {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10217,9 +10229,17 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.1rem;
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     letter-spacing: 0.0625em;
     cursor: pointer;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
   }
 }
 
@@ -10228,7 +10248,9 @@ header.masthead {
   /* padding-bottom: 6rem; */
   padding-bottom: 3rem;
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
+  /* color: #1a2043; */
+  color: black;
   /* background-image: url("/img/header-bg.jpg"); */
   /* background-image: url("/img/KakaoTalk_20200907_110744110.jpg"); */
   /* background-image: url("/img/KakaoTalk_20200907_111727951.jpg"); */
@@ -10862,8 +10884,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .__user__masthead__btn__style {
+  color: black;
+  /* color: #1a2043; */
   border-color: white;
-  border: 2px solid;
+  border: 3px solid;
   background-color: transparent;
   outline: none;
 }
